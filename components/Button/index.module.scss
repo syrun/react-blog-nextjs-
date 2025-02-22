@@ -1,0 +1,19 @@
+@use '../../styles/theme-color.scss' as theme;
+.sy-btn {
+  padding: 2px;
+  min-width: 70px;
+  padding: 0 5px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sy-btn-plain {
+  background-color: #fff;
+  color: theme.$ant-color-primary;
+  border: 1px solid theme.$ant-color-primary;
+}
+.sy-btn-primary {
+  color: #fff;
+  background-color: theme.$ant-color-primary;
+}

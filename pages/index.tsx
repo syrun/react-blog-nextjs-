@@ -1,11 +1,16 @@
-import React, { FC, memo } from 'react'
+import { NextPage } from 'next'
+import Head from 'next/head'
+import React, { memo } from 'react'
 
-interface IProps {
-  children?: React.ReactNode
+const Index: NextPage = () => {
+  return (
+    <div>
+      <Head>
+        <title>首页</title>
+      </Head>
+      index
+    </div>
+  )
 }
 
-const App: FC<IProps> = () => {
-  return <div>App</div>
-}
-
-export default memo(App)
+export default memo(Index)

@@ -1,0 +1,14 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ padding-top: 90px;
+}
+
+a {
+ list-style: none;
+ text-decoration: none;
+ color: #333;
+}

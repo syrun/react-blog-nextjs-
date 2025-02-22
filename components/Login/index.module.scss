@@ -1,0 +1,32 @@
+@use '../../styles//theme-color.scss' as theme;
+.vertify {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 15px;
+  border-left: none;
+  padding: 20px;
+}
+
+.others {
+  color: theme.$ant-color-primary;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.vertify {
+ height: 37px;
+}
+
+.get-vertify-code {
+ cursor: pointer;
+ color: theme.$ant-color-primary;
+}
+
+.get-vertify-code-disabled {
+ cursor: not-allowed;
+ color: theme.$ant-color-info;
+}

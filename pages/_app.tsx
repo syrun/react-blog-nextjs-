@@ -1,15 +1,16 @@
-import React, { FC, memo } from "react";
-import Head from "next/head";
-interface IProps {
-  children?: React.ReactNode;
-}
-
-const Template: FC<IProps> = ({ Component }) => {
+import { AppProps } from 'next/app'
+import React from 'react'
+import Layout from 'components/Layout'
+import 'styles/global.css'
+import 'antd/dist/reset.css'
+const Template = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Component />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
-  );
-};
+  )
+}
 
-export default memo(Template);
+export default Template

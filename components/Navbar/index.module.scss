@@ -1,0 +1,53 @@
+.navbar {
+ display: flex;
+ position: relative;
+ line-height: 50px;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ background-color: #fff;
+
+ a {
+  margin: 0 20px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+   color: #4293df;
+  }
+ }
+
+ .active {
+  color: #4293df;
+ }
+
+ .main {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0px 70px;
+ }
+
+ .logo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 50px;
+ }
+
+ .operation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 200px;
+
+  button {
+   margin-left: 20px;
+  }
+ }
+}
